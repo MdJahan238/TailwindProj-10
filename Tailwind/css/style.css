@@ -1,0 +1,306 @@
+/* styles.css */
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(172, 195, 185); 
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+header
+{
+    background-image: url(../images/);
+    padding: 10px;
+}
+nav
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul
+{
+margin: 0;
+padding: 10px;
+display: flex;
+align-items: center;
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+/* @media only screen and (max-width: 600px)  */
+@media only screen and (min-width:10px) and (max-width:320px)
+{
+    nav
+    {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav ul
+{
+margin: 0;
+padding: 10px;
+display: block;
+align-items: center;
+
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+align-items: baseline;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    nav
+    {
+        background-color: rgb(43, 90, 126);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    nav ul
+{
+margin: 0;
+padding: 10px;
+display: block;
+align-items: center;
+
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+align-items: baseline;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:768px)
+{
+    nav
+    {
+        background-color: rgb(239, 72, 72);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    nav ul
+{
+margin: 0;
+padding: 10px;
+display: flex;
+align-items: center;
+
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+align-items: baseline;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    nav
+    {
+        background-color: rgb(144, 0, 166);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        /* align-items: center; */
+    }
+    
+
+    nav ul
+{
+margin: 0;
+padding: 10px;
+display: flex;
+align-items: center;
+
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+align-items: baseline;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+}
+
+@media only screen and (min-width:1024px) and  (max-width:1920px)
+{
+    nav
+    {
+        background-color: rgb(0, 194, 71);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    nav ul
+{
+margin: 0;
+padding: 10px;
+display: flex;
+align-items: center;
+
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+align-items: baseline;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+}
+@media only screen and (min-width:1920px) and (max-width:2480px)
+{
+    nav
+    {
+        background-color: rgb(242, 250, 16);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    nav ul
+{
+margin: 0;
+padding: 10px;
+display: flex;
+align-items: center;
+
+}
+nav ul li
+{
+margin: 0;
+padding: 5px;
+list-style: none;
+font-size: 19px;
+font-weight: 600;
+align-items: baseline;
+}
+nav ul li a
+{
+margin: 0;
+padding: 5px;
+text-decoration: none;
+color: black;
+}
+}
